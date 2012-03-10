@@ -52,7 +52,7 @@ module I18n
         set_table_name 'translations'
         attr_protected :is_proc, :interpolations
 
-        serialize :value
+        #serialize :value
         serialize :interpolations, Array
 
         class << self
